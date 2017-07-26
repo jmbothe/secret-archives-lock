@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Secret Archives Lock</title>
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700|Cabin:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="main.js" defer></script>
+  </head>
+
+  <body>
+
+    <section class="controls">
+
+      <div class="lock-main">
+        <p>1. Input lock</p>
+        <p>(no brackets, quotes, or commas)</p>
+        <p>You can also edit individual tiles by clicking on the main grid</p>
+        <textarea class="lock-input" cols="20" rows="20"></textarea>
+        <button class="reset-lock">Reset (or update) lock</button>
+      </div>
+
+      <div class="actions-main">
+        <p>2. Input a string of directions</p>
+        <input type="text" class="actions-input" placeholder="e.g., URDL">
+        <button class="perform">Go!</button>
+        <p>OR</p>
+        <p>Choose a series of directions</p>
+        <div class="sort-buttons">
+          <button class="up-sort">Up</button>
+          <button class="left-sort">Left</button>
+          <button class="right-sort">Right</button>
+          <button class="down-sort">Down</button>
+        </div>
+      </div>
+
+    </section>
+
+    <section class='grid-container'>
+    </section>
+
+  </body>
+
+</html>
